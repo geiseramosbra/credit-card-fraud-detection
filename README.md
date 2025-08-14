@@ -41,4 +41,27 @@ O objetivo é identificar transações fraudulentas utilizando **Machine Learnin
    python -m venv .venv
    .venv\Scripts\Activate.ps1  # Windows PowerShell
 
+Instale as dependências: pip install -r requirements.txt
+Abra o Jupyter Notebook: jupyter notebook
+
+
+Execute os notebooks na ordem:
+01-EDA.ipynb
+02-cleaning.ipynb
+03-modeling.ipynb
+04-dashboard.ipynb
+
+Dependências
+
+Python >= 3.10
+Pandas, Numpy, Matplotlib, Seaborn
+Scikit-learn
+Jupyter Notebook
+
+Autor
+Geise Ramos
+   
+
+   
+
 
