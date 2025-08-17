@@ -4,25 +4,6 @@
 Este projeto realiza **detecção de fraudes em transações financeiras** usando o dataset [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) do Kaggle.  
 O objetivo é identificar transações fraudulentas utilizando **Machine Learning**, fornecendo métricas confiáveis e visualizações claras para análise de risco.
 
-## Estrutura do Projeto
-
-04-credit-card-fraud-detection/
-│
-├─ notebooks/
-│ ├─ 01-EDA.ipynb # Análise exploratória de dados
-│ ├─ 02-cleaning.ipynb # Limpeza e preparação dos dados
-│ ├─ 03-modeling.ipynb # Modelagem e avaliação de ML
-│ └─ 04-dashboard.ipynb # Dashboards e visualizações
-│
-├─ models/ # Modelos treinados (se houver)
-│
-├─ data/ # CSVs de dados (não incluídos no repositório)
-│ ├─ raw/creditcard.csv
-│ └─ clean/creditcard_clean.csv
-│
-├─ README.md # Este arquivo
-└─ .gitignore # Ignora arquivos grandes como CSVs
-
 
 ## Dataset
 - **Fonte:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
